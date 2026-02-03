@@ -1,12 +1,11 @@
-# One Operator to Rule Them All?  
-## Boundary-Indexed Operator Families in Neural PDE Solvers
+# One Operator to Rule Them All? Boundary-Indexed Operator Families in Neural PDE Solvers
 
 This repository contains the code used in the paper:
 
-**“One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers”**  
+“One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers”  
 (ICLR 2026 Workshop on AI & PDE)
 
-The goal of this project is to empirically demonstrate that standard neural PDE solvers do **not** learn a single boundary-agnostic solution operator when boundary conditions vary, but instead learn a **boundary-distribution–indexed family of operators**. The experiments are designed to isolate this effect in a controlled setting.
+The goal of this project is to empirically demonstrate that standard neural PDE solvers do not learn a single boundary-agnostic solution operator when boundary conditions vary, but instead learn a boundary-distribution–indexed family of operators. The experiments are designed to isolate this effect in a controlled setting.
 
 ---
 
@@ -18,7 +17,7 @@ We study the 2D Poisson equation on the unit square with mixed boundary conditio
 - The same models fail sharply under boundary-condition distribution shift, even when the PDE, forcing distribution, and resolution are unchanged.
 - Removing boundary-condition inputs causes models trained via empirical risk minimization to collapse to conditional expectations rather than valid solution operators.
 
-All experiments are implemented in a **single self-contained script** and produce all figures and tables used in the paper.
+All experiments are implemented in a single self-contained script and produce all figures and tables used in the paper.
 
 ---
 
@@ -31,8 +30,8 @@ The experiments consider the Poisson equation on \([0,1]^2\):
 \]
 
 with mixed boundary conditions:
-- **Dirichlet** on the left and bottom boundaries
-- **Neumann** on the right and top boundaries
+- Dirichlet on the left and bottom boundaries
+- Neumann on the right and top boundaries
 
 Boundary functions are sampled from parameterized families of smooth functions constructed via truncated Fourier series. Two distinct boundary-condition distributions are used to study cross-distribution generalization.
 
@@ -49,7 +48,7 @@ Boundary functions are sampled from parameterized families of smooth functions c
   - Demonstrates conditional-expectation behavior under boundary ablation
   - Exports figures, CSV tables, LaTeX-ready tables, and logs
 
-There are **no additional scripts or configuration files**.
+There are no additional scripts or configuration files.
 
 ---
 
