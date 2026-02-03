@@ -70,14 +70,6 @@ python bc_operator_family_experiments.py --device cuda --train_steps 2500 --batc
 python bc_operator_family_experiments.py --device cpu
 ```
 
-### Windows OpenMP workaround (if needed)
-
-If you encounter an OpenMP duplicate runtime warning on Windows, run:
-
-```powershell
-$env:KMP_DUPLICATE_LIB_OK="TRUE"
-```
-
 before executing the script.
 
 ---
