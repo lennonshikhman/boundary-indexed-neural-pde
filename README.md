@@ -23,13 +23,7 @@ All experiments are implemented in a single self-contained script and produce al
 
 ## PDE Setup
 
-The experiments consider the Poisson equation on \([0,1]^2\):
-
-\[
--\Delta u(x,y) = f(x,y)
-\]
-
-with mixed boundary conditions:
+The experiments consider the Poisson equation on [0,1] x [0,1] with mixed boundary conditions:
 - Dirichlet on the left and bottom boundaries
 - Neumann on the right and top boundaries
 
