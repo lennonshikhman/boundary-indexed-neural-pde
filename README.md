@@ -133,5 +133,3 @@ For questions or comments, please open an issue or contact the author directly.
 ---
 
 *This repository is intended to support the paper’s claims and emphasize clarity and reproducibility over architectural novelty.*
-
-```
