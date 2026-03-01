@@ -119,8 +119,9 @@ If you use this code or find the results useful, please cite the paper:
 @inproceedings{shikhman2026boundary,
   title={One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural PDE Solvers},
   author={Shikhman, Lennon J.},
-  booktitle={ICLR Workshop on Artificial Intelligence and Partial Differential Equations},
-  year={2026}
+  booktitle={Proceedings of the ICLR 2026 Workshop on Artificial Intelligence and Partial Differential Equations},
+  year={2026},
+  note={Poster paper}
 }
 ```
 
