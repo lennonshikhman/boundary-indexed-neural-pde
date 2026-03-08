@@ -117,11 +117,11 @@ If you use this code or find the results useful, please cite the paper:
 
 ```bibtex
 @inproceedings{shikhman2026one,
-title={One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural {PDE} Solvers},
-author={Lennon Shikhman},
-booktitle={AI{\&}PDE: ICLR 2026 Workshop on AI and Partial Differential Equations},
-year={2026},
-url={https://openreview.net/forum?id=lDjWQ9UxRy}
+  title={One Operator to Rule Them All? On Boundary-Indexed Operator Families in Neural {PDE} Solvers},
+  author={Lennon Shikhman},
+  booktitle={AI{\&}PDE: ICLR 2026 Workshop on AI and Partial Differential Equations},
+  year={2026},
+  url={https://openreview.net/forum?id=lDjWQ9UxRy}
 }
 ```
 
